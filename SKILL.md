@@ -1,17 +1,18 @@
 ---
-name: Vibe System Builder
+name: vibe-system-builder
 description: Extracts real design systems from URLs/screenshots + enforces component.gallery + Radix + shadcn/ui naming + adds Framer Motion + kills AI slop.
-triggers:
-  - vibe
-  - frontend
-  - ui
-  - design system
-  - extract
-  - shadcn
-  - radix
-  - component
-  - tailwind
-  - react
+metadata:
+  keywords:
+    - vibe
+    - frontend
+    - ui
+    - design system
+    - extract
+    - shadcn
+    - radix
+    - component
+    - tailwind
+    - react
 ---
 
 # Vibe System Builder – Core Instructions
