@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Automated installation for Vibe System Builder skills",
   "scripts": {
-    "install:claude": "mkdir -p ~/.claude/skills && cp -r ./full ~/.claude/skills/vibe-system-builder",
-    "install:antigravity": "mkdir -p ~/.agent/skills && cp -r ./full ~/.agent/skills/vibe-system-builder"
+    "install:claude": "mkdir -p ~/.claude/skills/vibe-system-builder && cp -r ./SKILL.md ./references ~/.claude/skills/vibe-system-builder/",
+    "install:antigravity": "mkdir -p ~/.agent/skills/vibe-system-builder && cp -r ./SKILL.md ./references ~/.agent/skills/vibe-system-builder/"
   }
 }
