@@ -28,7 +28,7 @@ If a URL is provided → use browser automation to navigate, inspect with DevToo
 If an image/screenshot is provided → infer qualitatively and note "Approximate from images".
 
 Extract using this exact structure:
-# [Invented memorable name – e.g. “Obsidian”, “Neon Forge”]
+# [Invented memorable name – e.g. "Obsidian", "Neon Forge"]
 ## Essence (2-3 sentences on feel)
 ## Color Palette (Backgrounds, text, accents, semantic - hex + usage)
 ## Typography (Families, scale, weights)
@@ -43,6 +43,7 @@ Cross-reference your local files for truth:
 - `references/components.json` (canonical names)
 - `references/shadcn-radix-templates.json` (component boilerplate)
 - `references/framer-motion-variants.json` (canonical animations)
+- `references/vibe-definitions.json` (pre-set styling rules for specific vibes)
 
 Prefer exact Radix + shadcn naming (Dialog, Popover, Accordion, InputOTP, Select, etc.). Never invent components. No raw `<div>` for interactive elements.
 
