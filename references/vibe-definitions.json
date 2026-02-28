@@ -1,0 +1,14 @@
+{
+  "vibes": {
+    "linear-clean": {
+      "container": "bg-background border-border/50 rounded-xl shadow-sm",
+      "motion": "{ opacity: 0, y: 10 }",
+      "rules": ["Subtle borders", "Negative space", "Monochrome + 1 Accent"]
+    },
+    "bento-modern": {
+      "container": "grid grid-cols-4 gap-4 bg-slate-50 p-6",
+      "card": "bg-white border border-slate-200 rounded-3xl shadow-sm hover:shadow-xl transition-all",
+      "rules": ["Varying column spans", "Large corner radii", "Generous padding"]
+    }
+  }
+}
